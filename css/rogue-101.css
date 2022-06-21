@@ -1,0 +1,169 @@
+/*****BASE STYLES*****/
+
+body {
+	font-family:'Montserrat', sans-serif;
+}
+
+h1, h2, h3 {
+	text-transform: uppercase;
+	font-weight: 900;
+}
+
+h1 {
+	font-size: 30px;
+}
+
+h2 {
+	font-size: 18px;
+}
+
+h3 {
+	font-size: 12px;
+}
+
+/*****GRID****/
+
+.full-width {
+	width: 1200px;
+	margin:0 auto;
+}
+
+.about,
+.work {
+	clear:both;
+	margin:0 auto;
+}
+
+/*****HEADER*****/
+
+header {
+	margin: 0 auto;
+	border-bottom: 2px solid #289345;
+	height: 110px;
+}
+
+header h1 span {
+	color:#289345;
+}
+
+header h1 {
+	float:left;
+	margin: 0;
+	padding-top: 35px;
+}
+
+header nav {
+	float:right;
+	padding-top: 48px;
+}
+
+header nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+header nav ul li {
+	display:inline;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 900;
+	padding-left: 15px;
+}
+
+header nav ul li a {
+	text-decoration: none;
+	color: #289345;
+}
+
+/*****WELCOME*****/
+
+.cover-image {
+	height: auto;
+	float: left;
+}
+
+.cover-image img {
+	border-bottom: #289345 2px solid;
+}
+
+.welcome {
+	height:auto;
+	float: left;
+}
+
+.welcome h2 {
+	color:#289345;
+	padding: 5px 0;
+	text-align: left;
+}
+
+.welcome p {
+	line-height: 20px;
+	font-size: 16px;
+	padding: 0;
+}
+
+/*****BOTTOM SECTION*****/
+
+.item-one,
+.item-two,
+.item-three {
+	width: 389px;
+	height: auto;
+	float:left;
+	border-top: 1px solid #eee;
+	padding-top: 10px;
+}
+
+.item-two {
+	border-right: #eee solid 1px;
+	border-left: #eee solid 1px;
+}
+
+.item-two,
+.item-three {
+	padding-left: 15px;
+}
+
+.specials {
+	list-style: none;
+	padding: 0;
+}
+
+.specials li {
+	color: #289345;
+	padding: 5px 0;
+}
+
+.reviews {
+	line-height: 20px;
+	font-size: 16px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+
+.contact {
+	line-height: 25px;
+	font-size: 16px;
+}
+
+/*****FOOTER*****/
+
+footer {
+	text-align: center;
+	clear: both;
+	border-top: 2px solid #eee;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 900;
+	padding-top: 10px;
+}
+
+footer span {
+	font-family: galada;
+	color: #289345;
+	text-transform: lowercase;
+	font-size: 16px;
+}
+
+
